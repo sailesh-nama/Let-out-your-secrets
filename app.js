@@ -64,7 +64,7 @@ passport.deserializeUser(function(id, done) {
 passport.use(new GoogleStrategy({
     clientID: "744811234849-g2msakhc9ttugtuiprbi1hqhctf3oal4.apps.googleusercontent.com",
     clientSecret: "qMdM1gtDrapHg6s8lLhCx8cC",
-    callbackURL: "http://localhost:3000/auth/google/secrets",
+    callbackURL: "http://murmuring-atoll-60876.herokuapp.com/auth/google/secrets",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {
